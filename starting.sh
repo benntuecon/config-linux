@@ -7,5 +7,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo dockerd
+# start the docker so that the machine is ready for docker compose
 
 
