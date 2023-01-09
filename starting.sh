@@ -6,7 +6,8 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.11.1/docker
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-sudo dockerd
+sudo dockerd &> dockerd-logfile &
+
 # start the docker so that the machine is ready for docker compose
 
 
